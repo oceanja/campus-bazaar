@@ -201,23 +201,6 @@ No image analysis is performed — the AI works purely from text input.
 
 ---
 
-## 🤝 Contributing
 
-Pull requests are welcome! For major changes, open an issue first.
 
-1. Fork the repo
-2. Create a feature branch (`git checkout -b feat/your-feature`)
-3. Commit your changes
-4. Push and open a PR
 
----
-
-## 📄 License
-
-MIT — free to use, modify, and distribute.
-
----
-
-<div align="center">
-  Made with ☕ for college students across India
-</div>
