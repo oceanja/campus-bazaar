@@ -196,13 +196,6 @@ The app is a standard Vite SPA — deploy to **Vercel**, **Netlify**, or any sta
 
 ---
 
-## 🧠 How the AI Pricing Works
-
-When a seller fills in item details (category, condition, description, original price), the app sends a structured prompt to **Groq's `llama-3.3-70b-versatile`** model. The response includes a suggested resale price and a brief explanation, calibrated for the Indian college student market.
-
-No image analysis is performed — the AI works purely from text input.
-
----
 
 
 
