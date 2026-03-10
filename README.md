@@ -14,7 +14,9 @@ Buy and sell second-hand items with students at your college — get a fair pric
 
 </div>
 
-Demo : https://drive.google.com/file/d/1Jsy51fRu1Je_X5F-hU3RE4glCilAL23L/view?usp=sharing
+**[▶ Watch Demo](https://drive.google.com/file/d/1Jsy51fRu1Je_X5F-hU3RE4glCilAL23L/view?usp=sharing)**
+
+> **Note:** The live site runs on Supabase's free tier, which automatically pauses the database after a period of inactivity. If the site doesn't load or login fails, the backend may be sleeping — refer to the demo video above to see the full app in action.
 
 ---
 
