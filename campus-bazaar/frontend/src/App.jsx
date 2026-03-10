@@ -103,7 +103,14 @@ export default function App() {
         await loadProfile(sess?.user ?? null);
       }
     );
-    return () => subscription.unsubscribe();
+
+    // Safety net: if Supabase never fires (paused project, network down),
+    // fall back to "not logged in" after 8 s instead of spinning forever.
+    const timeout = setTimeout(() => {
+      setSession(prev => prev === undefined ? null : prev);
+    }, 8000);
+
+    return () => { subscription.unsubscribe(); clearTimeout(timeout); };
   }, [loadProfile]);
 
   // session === undefined means we haven't heard from Supabase yet
